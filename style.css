@@ -1,0 +1,109 @@
+:root {
+  --primary-colour: #6c61f6;
+  --background-colour: #f9f7fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.intro {
+  margin-bottom: 70px;
+}
+
+.greeting {
+  margin-top: 90px;
+}
+
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button-1 {
+  background-color: var(--primary-colour);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.button-1:hover {
+  cursor: pointer;
+}
+
+.button-2 {
+  background-color: white;
+  color: var(--primary-colour);
+  border: 1px solid var(--primary-colour);
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 19px 14px;
+  margin: 20px;
+}
+
+h3 {
+  color: #636769;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.gray {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 95%;
+  margin: 0px;
+}
+
+.project {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.project-3 {
+  margin-bottom: 30px;
+}
+
+.mail {
+  text-align: center;
+  display: block;
+  color: var(--primary-colour);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.mail:hover {
+  text-decoration: underline;
+}
+
+.box {
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  width: 31%;
+}
