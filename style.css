@@ -107,3 +107,23 @@ img {
   margin: 15px;
   width: 31%;
 }
+
+@media (max-width: 1180px) {
+  .box {
+    width: 29%;
+  }
+}
+
+@media (max-width: 667px) {
+  .weather-app {
+    margin-left: 375px;
+  }
+
+  .weather-title {
+    margin-top: 50px;
+  }
+
+  .box {
+    width: 92%;
+  }
+}
